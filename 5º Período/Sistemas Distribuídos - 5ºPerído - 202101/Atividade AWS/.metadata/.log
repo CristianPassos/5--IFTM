@@ -1,0 +1,61 @@
+!SESSION 2021-07-07 20:35:47.682 -----------------------------------------------
+eclipse.buildId=4.20.0.I20210611-1600
+java.version=11.0.11
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jface 2 0 2021-07-07 20:37:19.505
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-07-07 20:37:19.505
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1d9ff1e2,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@722b3ba2,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-07-07 20:37:26.120
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\cndv'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.p2.director 4 10053 2021-07-07 20:42:52.337
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2021-07-07 20:42:52.337
+!MESSAGE Software currently installed: Amazon RDS Management 1.0.0.v201807201743 (com.amazonaws.eclipse.rds.feature.feature.group 1.0.0.v201807201743)
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2021-07-07 20:42:52.337
+!MESSAGE Missing requirement: Amazon Relational Database Service (RDS) Plugin 1.0.0.v201807201743 (com.amazonaws.eclipse.rds 1.0.0.v201807201743) requires 'osgi.bundle; org.eclipse.datatools.connectivity.ui.dse 1.1.0' but it could not be found
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2021-07-07 20:42:52.337
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2021-07-07 20:42:52.337
+!MESSAGE From: Amazon RDS Management 1.0.0.v201807201743 (com.amazonaws.eclipse.rds.feature.feature.group 1.0.0.v201807201743)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2021-07-07 20:42:52.337
+!MESSAGE To: org.eclipse.equinox.p2.iu; com.amazonaws.eclipse.rds [1.0.0.v201807201743,1.0.0.v201807201743]
+
+!ENTRY org.eclipse.equinox.p2.director 4 10053 2021-07-07 20:46:18.714
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2021-07-07 20:46:18.714
+!MESSAGE Software currently installed: Amazon RDS Management 1.0.0.v201807201743 (com.amazonaws.eclipse.rds.feature.feature.group 1.0.0.v201807201743)
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2021-07-07 20:46:18.714
+!MESSAGE Missing requirement: Amazon Relational Database Service (RDS) Plugin 1.0.0.v201807201743 (com.amazonaws.eclipse.rds 1.0.0.v201807201743) requires 'osgi.bundle; org.eclipse.datatools.connectivity.ui.dse 1.1.0' but it could not be found
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2021-07-07 20:46:18.714
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2021-07-07 20:46:18.714
+!MESSAGE From: Amazon RDS Management 1.0.0.v201807201743 (com.amazonaws.eclipse.rds.feature.feature.group 1.0.0.v201807201743)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2021-07-07 20:46:18.714
+!MESSAGE To: org.eclipse.equinox.p2.iu; com.amazonaws.eclipse.rds [1.0.0.v201807201743,1.0.0.v201807201743]
