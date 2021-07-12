@@ -6,8 +6,8 @@ import {
 } from "react-router-dom";
 import StoreProvider from 'components/Store/Provider';
 import RoutesPrivate from 'components/Routes/Private/Private';
-import PagesSearch from './Promotion/Search/Search';
-import PagesForm from './Promotion/Form/Form';
+import PagesSearch from './Login/Home/Home';
+import PagesForm from './Login/Form/Form';
 
 const Root = () => {
     return (
